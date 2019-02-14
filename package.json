@@ -1,7 +1,7 @@
 {
-  "name": "@balajmarius/svg2jsx",
-  "version": "1.1.0",
-  "description": "Transform SVG elements to JSX",
+  "name": "morpheus",
+  "version": "2.0.0",
+  "description": "Transform SVG elements into valid JSX",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --config .eslintrc.json lib/",
@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/balajmarius/svg2jsx#readme",
   "dependencies": {
-    "css-to-react-native": "^2.3.0",
+    "css-to-react-native": "2.3.0",
     "lodash.camelcase": "4.3.0",
+    "lodash.clonedeep": "4.5.0",
     "lodash.isplainobject": "4.0.6",
     "svg-parser": "1.0.5",
     "svgo": "1.1.1"
@@ -32,8 +33,8 @@
   "devDependencies": {
     "eslint": "5.13.0",
     "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "^7.12.4",
     "jest": "24.1.0"
   }
