@@ -4,8 +4,8 @@
   "description": "Transform SVG elements to JSX",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --config .eslintrc lib/ --fix",
-    "test": "node test"
+    "lint": "eslint --config .eslintrc.json lib/",
+    "test": "npm run lint && node test"
   },
   "repository": {
     "type": "git",
@@ -23,18 +23,18 @@
   },
   "homepage": "https://github.com/balajmarius/svg2jsx#readme",
   "dependencies": {
-    "camel-case": "^3.0.0",
-    "css-to-react-native": "^2.1.2",
-    "is-plain-object": "^2.0.4",
-    "lodash.flow": "^3.5.0",
-    "svg-parser": "^1.0.5",
-    "svgo": "^0.7.2"
+    "css-to-react-native": "^2.3.0",
+    "lodash.camelcase": "4.3.0",
+    "lodash.isplainobject": "4.0.6",
+    "svg-parser": "1.0.5",
+    "svgo": "1.1.1"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-marius": "^1.0.1",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-react": "^7.7.0",
-    "tape": "^4.6.3"
+    "eslint": "5.13.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "24.1.0"
   }
 }
