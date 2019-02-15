@@ -1,6 +1,7 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:prettier/recommended"],
   "rules": {
-    "arrow-parens": "off"
+    "arrow-parens": "off",
+    "prefer-template": "off"
   }
 }
