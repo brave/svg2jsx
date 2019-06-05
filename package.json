@@ -28,11 +28,10 @@
     "is-plain-object": "^2.0.4",
     "lodash.flow": "^3.5.0",
     "svg-parser": "^1.0.5",
-    "svgo": "^0.7.2"
+    "svgo": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-marius": "^1.0.1",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-react": "^7.7.0",
     "tape": "^4.6.3"
